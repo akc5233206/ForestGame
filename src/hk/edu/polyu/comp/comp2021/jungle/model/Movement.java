@@ -1,0 +1,67 @@
+package hk.edu.polyu.comp.comp2021.jungle.model;
+
+import hk.edu.polyu.comp.comp2021.jungle.model.square.RiverSquare;
+import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
+import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
+
+public interface Movement {
+
+    default boolean isValidMovement(Player currPlayer, Square sourceSquare , Square destSquare)
+    {
+        boolean isValid = false;
+        if((sourceSquare.getRowPosition()+ 1 == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() == destSquare.getColumnPosition() )||
+                (sourceSquare.getRowPosition() - 1 == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() == destSquare.getColumnPosition() )||
+                (sourceSquare.getRowPosition() == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() + 1 == destSquare.getColumnPosition() )||
+                (sourceSquare.getRowPosition() == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() - 1 == destSquare.getColumnPosition() ))
+        {
+            if(!RiverSquare.class.isInstance(destSquare))
+            {
+                isValid =true;
+            }
+        }
+        return isValid;
+    }
+
+    default Boolean isAroundRiver(int sourceRow , char sourceCol)
+    {
+        boolean result = false;
+        switch (sourceCol)
+        {
+            case 'A':
+            case 'D':
+            case 'G':
+                result = sourceRow >= 4 && sourceRow <=6;
+                break;
+            case 'B':
+            case 'C':
+            case 'E':
+            case 'F':
+                result = sourceRow == 3 || sourceRow == 7;
+                break;
+        }
+        return result;
+    }
+
+    default void getInsideOrOutsideTrap(Square sourceSquare , Square destSquare)
+    {
+        if(TrapSquare.class.isInstance(sourceSquare))
+        {
+            destSquare.getAnimal().setInTrap(false);
+        }
+        if(TrapSquare.class.isInstance(destSquare))
+        {
+            destSquare.getAnimal().setInTrap(true);
+        }
+    }
+
+    default void isDen()
+    {
+
+    }
+
+
+    boolean moveToBoardDestination(Player currPlayer, Square sourceSquare , Square destSquare);
+
+
+
+}
