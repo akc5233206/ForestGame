@@ -11,7 +11,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
 /**
  * The type Elephant piece.
  */
-public class ElephantPiece extends AnimalPieces implements Movement, Capture {
+public class ElephantPiece extends AnimalPieces {
 
     /**
      * Instantiates a new Elephant piece.
