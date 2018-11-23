@@ -9,7 +9,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 /**
  * The type Lion piece.
  */
-public class LionPiece extends AnimalPieces implements Movement, Capture {
+public class LionPiece extends AnimalPieces {
 
     /**
      * Instantiates a new Lion piece.
@@ -26,7 +26,7 @@ public class LionPiece extends AnimalPieces implements Movement, Capture {
     public boolean isValidMovement(Player currPlayer, Square sourceSquare , Square destSquare)
     {
         boolean isValid = false;
-        isValid = Movement.super.isValidMovement(currPlayer, sourceSquare , destSquare);
+        isValid = super.isValidMovement(currPlayer, sourceSquare , destSquare);
         if(!isValid)
         {
             if((sourceSquare.getRowPosition() == destSquare.getRowPosition() && sourceSquare.getColumnPosition() + 3 == destSquare.getColumnPosition() )||
