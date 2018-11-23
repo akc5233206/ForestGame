@@ -8,13 +8,13 @@ public class Player{
     private String name;
     private int playerID;
     private HashMap<String, AnimalPieces> playerPiece;
-    private boolean winGrame;
+    private boolean winGame;
 
     public Player(String name, int playerID)
     {
         this.name = name;
         this.playerID = playerID ;
-        this.winGrame = false;
+        this.winGame = false;
         playerPiece = new HashMap<String, AnimalPieces>();
         playerPiece.put("ELEPHANT", new ElephantPiece(this));
         playerPiece.put("LION", new LionPiece(this));
@@ -30,7 +30,7 @@ public class Player{
     {
         this.name = name;
         this.playerID = playerID;
-        this.winGrame = false;
+        this.winGame = false;
         playerPiece = new HashMap<String, AnimalPieces>();
         for(String animal : animalPieces)
         {
@@ -51,11 +51,11 @@ public class Player{
         return this.name;
     }
 
-    public boolean getWinGame (){return this.winGrame;}
+    public boolean getWinGame (){return this.winGame;}
 
     public int getPlayerID(){return this.playerID;}
 
-    public void setWinGame (boolean winGame){this.winGrame = winGame;}
+    public void setWinGame (boolean winGame){this.winGame = winGame;}
 
     public int getPieceNumber()
     {

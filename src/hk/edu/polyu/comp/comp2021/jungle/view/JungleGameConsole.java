@@ -153,13 +153,15 @@ public class JungleGameConsole {
                     {
                         System.out.println("Do you want to restart the jungle game? (Y/N)");
                         String reStart = scanUserInput.nextLine();
-                        while ((reStart.length() > 1 || reStart.length() < 1) || (!reStart.equals("Y") && !reStart.equals("N")))
-                        {
+                        while ((reStart.length() > 1 || reStart.length() < 1) || (!reStart.equals("Y") && !reStart.equals("N")))                        {
                             System.out.println("Your input is invalid. Please enter 'Y' or 'N' for permitting the restart of Jungle Game.");
                             reStart = scanUserInput.nextLine();
                         }
-                        this.reinitializeGameBoard();
-                        this.gameStated = false;
+                        if(reStart.equals("Y"))
+                        {
+                            this.reinitializeGameBoard();
+                            this.gameStated = false;
+                        }
                     }
                     break;
                 case CMD_MOVE:
@@ -208,9 +210,10 @@ public class JungleGameConsole {
                             } else {
                                 if (jungleGame.saveJungleGame(saveFolderPath)) {
                                     System.out.println("The current Jungle board game is already saved into your specific location.");
-                                } else {
-                                    System.out.println("The save command cannot completed.\nPlease try again or enter the new save command.");
                                 }
+//                                else {
+//                                    System.out.println("The save command cannot completed.\nPlease try again or enter the new save command.");
+//                                }
                             }
                         }
                     }else
@@ -221,7 +224,7 @@ public class JungleGameConsole {
                 case CMD_OPNE:
                     if(userInputArray.length != 2)
                     {
-                        System.out.println("The open command is not valid. \nPlease enter the new save command again. e.g save C:\\Users\\Username\\Desktop\\");
+                        System.out.println("The open command is not valid. \nPlease enter the new open command again. e.g open C:\\Users\\Username\\Desktop\\");
                     }else
                     {
                         //Check folder exist
@@ -229,7 +232,7 @@ public class JungleGameConsole {
 
                         if(!Files.isRegularFile(openFolderPath))
                         {
-                            System.out.println("The inputted location for opening Jungle Game State is not exist.\nPlease enter the save command again.");
+                            System.out.println("The inputted location for opening Jungle Game State is not exist.\nPlease enter the open command again.");
                         }else
                         {
                             if(jungleGame.loadJungleGame(openFolderPath))
@@ -238,10 +241,11 @@ public class JungleGameConsole {
                                 System.out.println("The loaded Jungle Game Board : \n");
                                 System.out.println(jungleGame.getStringGameBoard());
                                 this.gameStated = true;
-                            }else
-                            {
-                                System.out.println("The current game is not saved yet/ There is a damage of your save file.\nPlease use the 'save' command to save your current Jungle game first.");
                             }
+//                            else
+//                            {
+//                                System.out.println("The current game is not saved yet/ There is a damage of your save file.\nPlease use the 'save' command to save your current Jungle game first.");
+//                            }
                         }
                     }
 
@@ -249,18 +253,6 @@ public class JungleGameConsole {
                 case CMD_EXIT:
                     exit();
                     break;
-                default:
-                    System.out.println("Your input command is not valid. The Console only accept four types of command.");
-                    System.out.println("'start'");
-                    System.out.println("'move'");
-                    System.out.println("'save'");
-                    System.out.println("'open'");
-                    System.out.println("'exit'");
-                    if(this.gameStated )
-                    {
-                        System.out.println("The current Jungle Game Board : \n");
-                        System.out.println(jungleGame.getStringGameBoard());
-                    }
             }
         }else
         {
