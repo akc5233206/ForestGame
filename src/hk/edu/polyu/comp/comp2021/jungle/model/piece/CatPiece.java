@@ -6,8 +6,16 @@ import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.DenSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 
+/**
+ * The type Cat piece.
+ */
 public class CatPiece extends AnimalPieces implements Movement, Capture {
 
+    /**
+     * Instantiates a new Cat piece.
+     *
+     * @param player the player
+     */
     public CatPiece(Player player)
     {
         super(2, "CAT" , player, "C");

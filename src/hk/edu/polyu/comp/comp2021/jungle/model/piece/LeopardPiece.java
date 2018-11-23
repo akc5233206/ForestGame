@@ -6,8 +6,16 @@ import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.DenSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 
+/**
+ * The type Leopard piece.
+ */
 public class LeopardPiece extends AnimalPieces implements Movement, Capture {
 
+    /**
+     * Instantiates a new Leopard piece.
+     *
+     * @param player the player
+     */
     public LeopardPiece(Player player)
     {
         super(5, "LEOPARD" , player, "Le");

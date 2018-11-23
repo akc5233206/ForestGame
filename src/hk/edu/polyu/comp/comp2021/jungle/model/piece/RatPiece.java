@@ -5,8 +5,16 @@ import hk.edu.polyu.comp.comp2021.jungle.model.Movement;
 import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.*;
 
+/**
+ * The type Rat piece.
+ */
 public class RatPiece extends AnimalPieces implements Movement, Capture {
 
+    /**
+     * Instantiates a new Rat piece.
+     *
+     * @param player the player
+     */
     public RatPiece(Player player)
     {
         super(1, "RAT" , player, "R");

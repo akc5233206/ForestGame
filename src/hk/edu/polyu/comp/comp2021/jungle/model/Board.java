@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * The type Board.
+ */
 class Board {
     private HashMap<String, Square> boardMap;
     private final int BOARD_ROW_SIZE = 9;
@@ -13,13 +16,22 @@ class Board {
     private static final int ASCII_CODE_A = 65;
     private static final int ASCII_CODE_0 = 48;
 
+    /**
+     * Instantiates a new Board.
+     */
     Board()
     {
         boardMap = new HashMap<String, Square>();
     }
 
 
-
+    /**
+     * Init new game board boolean.
+     *
+     * @param player1 the player 1
+     * @param player2 the player 2
+     * @return the boolean
+     */
     boolean initNewGameBoard(Player player1, Player player2)
     {
         if(boardMap == null ){return false;}
@@ -192,6 +204,11 @@ class Board {
         return true;
     }
 
+    /**
+     * Save game board list.
+     *
+     * @return the list
+     */
     List<String> saveGameBoard()
     {
         List<String> boardList = new ArrayList<>();
@@ -211,6 +228,14 @@ class Board {
         return boardList;
     }
 
+    /**
+     * Load game board boolean.
+     *
+     * @param jungleBoardState the jungle board state
+     * @param player1          the player 1
+     * @param player2          the player 2
+     * @return the boolean
+     */
     boolean loadGameBoard(List<String> jungleBoardState, Player player1, Player player2)
     {
         boolean loadGameBoardSuccess = false;
@@ -246,6 +271,9 @@ class Board {
     }
 
 
+    /**
+     * Clear game board.
+     */
     void clearGameBoard()
     {
         if(this.boardMap.size() == 0)
@@ -266,6 +294,12 @@ class Board {
     }
 
 
+    /**
+     * Print game board string [ ] [ ].
+     *
+     * @param player2 the player 2
+     * @return the string [ ] [ ]
+     */
     String[][] printGameBoard(Player player2)
     {
         String[][] jungleBoard = new String[BOARD_ROW_SIZE][BOARD_COLUMN_SIZE];
@@ -300,7 +334,14 @@ class Board {
     }
 
 
-
+    /**
+     * Move piece on board boolean.
+     *
+     * @param movePlayer     the move player
+     * @param sourceLocation the source location
+     * @param destLocation   the dest location
+     * @return the boolean
+     */
     boolean movePieceOnBoard (Player movePlayer, String sourceLocation, String destLocation)
     {
         //Check the sourceLocation is exist in the Jungle Board or not.
@@ -496,6 +537,12 @@ class Board {
     }*/
 
 
+    /**
+     * Is square boolean.
+     *
+     * @param square the square
+     * @return the boolean
+     */
     boolean isSquare(String square)
     {
         return this.boardMap.containsKey(square);

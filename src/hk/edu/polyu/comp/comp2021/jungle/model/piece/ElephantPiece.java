@@ -8,8 +8,16 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.LandSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
 
+/**
+ * The type Elephant piece.
+ */
 public class ElephantPiece extends AnimalPieces implements Movement, Capture {
 
+    /**
+     * Instantiates a new Elephant piece.
+     *
+     * @param player the player
+     */
     public ElephantPiece(Player player)
     {
         super(8, "ELEPHANT" , player, "E");

@@ -4,8 +4,18 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.LandSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
 
+/**
+ * The interface Capture.
+ */
 public interface Capture {
 
+    /**
+     * Capture animal boolean.
+     *
+     * @param sourceSquare the source square
+     * @param destSquare   the dest square
+     * @return the boolean
+     */
     default boolean captureAnimal(Square sourceSquare, Square destSquare)
     {
         boolean captureSuccess = false;

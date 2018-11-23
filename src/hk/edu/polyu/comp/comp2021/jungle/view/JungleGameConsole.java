@@ -7,18 +7,39 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
+/**
+ * Jungle game console.
+ */
 public class JungleGameConsole {
 
     private JungleGame jungleGame;
     private boolean exitGame;
     private boolean gameStated;
 
+    /**
+     * The enum Command.
+     */
     public enum Command
     {
+        /**
+         * Cmd start command.
+         */
         CMD_START("start"),
+        /**
+         * Cmd move command.
+         */
         CMD_MOVE("move"),
+        /**
+         * Cmd save command.
+         */
         CMD_SAVE("save"),
+        /**
+         * Cmd opne command.
+         */
         CMD_OPNE("open"),
+        /**
+         * Cmd exit command.
+         */
         CMD_EXIT("exit");
 
         private String commandValue;
@@ -28,11 +49,22 @@ public class JungleGameConsole {
             this.commandValue = commandValue;
         }
 
+        /**
+         * Gets command value.
+         *
+         * @return the command value
+         */
         public String getCommandValue()
         {
             return this.commandValue;
         }
 
+        /**
+         * Gets by user string input.
+         *
+         * @param commandValue the command value
+         * @return the by user string input
+         */
         public static Command getByUserStringInput(String commandValue)
         {
             for(Command cmdvalue : Command.values())
@@ -47,31 +79,55 @@ public class JungleGameConsole {
     }
 
 
+    /**
+     * Instantiates a new Jungle game console.
+     *
+     * @param jungleGame the jungle game
+     */
     public JungleGameConsole(JungleGame jungleGame)
     {
         this.jungleGame = jungleGame;
     }
 
+    /**
+     * Check exit boolean.
+     *
+     * @return the boolean
+     */
     public boolean checkExit()
     {
         return this.exitGame;
     }
 
+    /**
+     * Exit.
+     */
     public void exit()
     {
         this.exitGame = true;
     }
 
+    /**
+     * Check game started boolean.
+     *
+     * @return the boolean
+     */
     public boolean checkGameStarted()
     {
         return this.gameStated;
     }
 
+    /**
+     * Reinitialize game board.
+     */
     public void reinitializeGameBoard()
     {
         this.jungleGame = new JungleGame();
     }
 
+    /**
+     * Start console.
+     */
     public void startConsole()
     {
         Scanner scanUserInput = new Scanner(System.in);

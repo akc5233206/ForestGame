@@ -4,12 +4,21 @@ import hk.edu.polyu.comp.comp2021.jungle.model.piece.*;
 
 import java.util.HashMap;
 
+/**
+ * The type Player.
+ */
 public class Player{
     private String name;
     private int playerID;
     private HashMap<String, AnimalPieces> playerPiece;
     private boolean winGame;
 
+    /**
+     * Instantiates a new Player.
+     *
+     * @param name     the name
+     * @param playerID the player id
+     */
     public Player(String name, int playerID)
     {
         this.name = name;
@@ -26,6 +35,13 @@ public class Player{
         playerPiece.put("RAT", new RatPiece(this));
     }
 
+    /**
+     * Instantiates a new Player.
+     *
+     * @param name         the name
+     * @param playerID     the player id
+     * @param animalPieces the animal pieces
+     */
     public Player(String name, int playerID, String[] animalPieces)
     {
         this.name = name;
@@ -46,22 +62,53 @@ public class Player{
 
     }
 
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
     public String getName()
     {
         return this.name;
     }
 
+    /**
+     * Get win game boolean.
+     *
+     * @return the boolean
+     */
     public boolean getWinGame (){return this.winGame;}
 
+    /**
+     * Get player id int.
+     *
+     * @return the int
+     */
     public int getPlayerID(){return this.playerID;}
 
+    /**
+     * Set win game.
+     *
+     * @param winGame the win game
+     */
     public void setWinGame (boolean winGame){this.winGame = winGame;}
 
+    /**
+     * Gets piece number.
+     *
+     * @return the piece number
+     */
     public int getPieceNumber()
     {
         return this.playerPiece.size();
     }
 
+    /**
+     * Remove piece animal pieces.
+     *
+     * @param animalType the animal type
+     * @return the animal pieces
+     */
     public AnimalPieces removePiece(String animalType)
     {
         AnimalPieces deletePiece = this.playerPiece.remove(animalType);
@@ -69,6 +116,12 @@ public class Player{
     }
 
 
+    /**
+     * Gets piece.
+     *
+     * @param animalType the animal type
+     * @return the piece
+     */
     public AnimalPieces getPiece(String animalType)
     {
         return this.playerPiece.get(animalType);

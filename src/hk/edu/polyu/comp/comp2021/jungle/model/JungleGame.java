@@ -11,23 +11,32 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Jungle game.
+ */
 public class JungleGame {
     private Board board;
     private Player player1;
     private Player player2;
     private GameState currentGameState;
-    //private String saveFileID;
     private boolean isSavedFile ;
 
 
+    /**
+     * Instantiates a new Jungle game.
+     */
     public JungleGame()
     {
         this.currentGameState = GameState.PRESTART;
         this.board = new Board();
-        //this.saveFileID = String.valueOf(new Timestamp((System.currentTimeMillis())).getTime());
         this.isSavedFile = false;
     }
 
+    /**
+     * Gets current game state.
+     *
+     * @return the current game state
+     */
     public GameState getCurrentGameState()
     {
         return this.currentGameState;
@@ -38,6 +47,13 @@ public class JungleGame {
         this.currentGameState = nextGameState;
     }
 
+    /**
+     * Create new player boolean.
+     *
+     * @param playerName the player name
+     * @param isPlayer2 true for player 2, false for player 1
+     * @return the boolean
+     */
     public boolean createNewPlayer(String playerName, boolean isPlayer2)
     {
         boolean createNewPlayerSuccess = false;
@@ -61,6 +77,11 @@ public class JungleGame {
     }
 
 
+    /**
+     * Is win game game state.
+     *
+     * @return the game state
+     */
     public GameState isWinGame()
     {
         if(this.player1 != null && this.player2 != null)
@@ -79,6 +100,11 @@ public class JungleGame {
         return this.currentGameState;
     }
 
+    /**
+     * Gets winner name.
+     *
+     * @return the winner name
+     */
     public String getWinnerName()
     {
         if(this.player1.getWinGame() )
@@ -92,6 +118,13 @@ public class JungleGame {
         return null;
     }
 
+    /**
+     * Move animal on board boolean.
+     *
+     * @param sourceLocation the source location
+     * @param destLocation   the dest location
+     * @return the boolean
+     */
     public boolean moveAnimalOnBoard(String sourceLocation, String destLocation)
     {
         boolean movementSuccess;
@@ -109,6 +142,12 @@ public class JungleGame {
         return movementSuccess;
     }
 
+    /**
+     * Save jungle game boolean.
+     *
+     * @param filePath the file path
+     * @return the boolean
+     */
     public boolean saveJungleGame(Path filePath) {
         boolean saveJungleSuccess;
         List<String> jungleBoardState = new ArrayList<>();
@@ -128,6 +167,12 @@ public class JungleGame {
         return saveJungleSuccess;
     }
 
+    /**
+     * Load jungle game boolean.
+     *
+     * @param filePath the file path
+     * @return the boolean
+     */
     public boolean loadJungleGame(Path filePath){
         boolean loadJungleGameSuccess = false;
         if(isSavedFile || (this.player2 == null && this.player1==null ) ) {
@@ -166,12 +211,23 @@ public class JungleGame {
         return loadJungleGameSuccess;
     }
 
+    /**
+     * Check input square exit boolean.
+     *
+     * @param squareString the square string
+     * @return the boolean
+     */
     public boolean checkInputSquareExit(String squareString)
     {
         return this.board.isSquare(squareString);
     }
 
 
+    /**
+     * Gets string game board.
+     *
+     * @return the string game board
+     */
     public String getStringGameBoard()
     {
         String[][] stringBoard = this.board.printGameBoard(this.player2);

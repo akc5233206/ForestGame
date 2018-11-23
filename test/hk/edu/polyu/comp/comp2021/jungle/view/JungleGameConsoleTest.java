@@ -31,9 +31,6 @@ public class JungleGameConsoleTest {
         return testOut.toString();
     }
 
-//    public void setUp() throws Exception {
-//
-//    }
 
     @After
     public void restoreSystemInputOutput() {
@@ -41,12 +38,6 @@ public class JungleGameConsoleTest {
         System.setOut(systemOut);
     }
 
-//    public void tearDown() throws Exception {
-//    }
-
-    @Test
-    public void checkExit() {
-    }
 
     @Test
     public void exit() {
@@ -57,14 +48,6 @@ public class JungleGameConsoleTest {
         console.startConsole();
         final String outString = "Input : Exit the current Jungle Board Game.\n";
         assertEquals(outString, getOutput());
-    }
-
-    @Test
-    public void checkGameStarted() {
-    }
-
-    @Test
-    public void reinitializeGameBoard() {
     }
 
     @Test

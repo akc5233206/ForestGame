@@ -4,8 +4,19 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.RiverSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
 
+/**
+ * The interface Movement.
+ */
 public interface Movement {
 
+    /**
+     * Is valid movement boolean.
+     *
+     * @param currPlayer   the curr player
+     * @param sourceSquare the source square
+     * @param destSquare   the dest square
+     * @return the boolean
+     */
     default boolean isValidMovement(Player currPlayer, Square sourceSquare , Square destSquare)
     {
         boolean isValid = false;
@@ -22,6 +33,13 @@ public interface Movement {
         return isValid;
     }
 
+    /**
+     * Is around river boolean.
+     *
+     * @param sourceRow the source row
+     * @param sourceCol the source col
+     * @return the boolean
+     */
     default Boolean isAroundRiver(int sourceRow , char sourceCol)
     {
         boolean result = false;
@@ -42,6 +60,12 @@ public interface Movement {
         return result;
     }
 
+    /**
+     * Gets inside or outside trap.
+     *
+     * @param sourceSquare the source square
+     * @param destSquare   the dest square
+     */
     default void getInsideOrOutsideTrap(Square sourceSquare , Square destSquare)
     {
         if(TrapSquare.class.isInstance(sourceSquare))
@@ -54,12 +78,23 @@ public interface Movement {
         }
     }
 
+    /**
+     * Is den.
+     */
     default void isDen()
     {
 
     }
 
 
+    /**
+     * Move to board destination boolean.
+     *
+     * @param currPlayer   the curr player
+     * @param sourceSquare the source square
+     * @param destSquare   the dest square
+     * @return the boolean
+     */
     boolean moveToBoardDestination(Player currPlayer, Square sourceSquare , Square destSquare);
 
 

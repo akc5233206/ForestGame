@@ -6,8 +6,16 @@ import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.DenSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 
+/**
+ * The type Wolf piece.
+ */
 public class WolfPiece extends AnimalPieces implements Movement, Capture {
 
+    /**
+     * Instantiates a new Wolf piece.
+     *
+     * @param player the player
+     */
     public WolfPiece(Player player)
     {
         super(4, "WOLF" , player , "W");
