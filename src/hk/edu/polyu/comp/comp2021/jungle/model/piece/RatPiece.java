@@ -8,7 +8,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.*;
 /**
  * The type Rat piece.
  */
-public class RatPiece extends AnimalPieces implements Movement, Capture {
+public class RatPiece extends AnimalPieces {
 
     /**
      * Instantiates a new Rat piece.
