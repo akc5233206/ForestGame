@@ -9,7 +9,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 /**
  * The type Dog piece.
  */
-public class DogPiece extends AnimalPieces implements Movement, Capture {
+public class DogPiece extends AnimalPieces  {
 
     /**
      * Instantiates a new Dog piece.
