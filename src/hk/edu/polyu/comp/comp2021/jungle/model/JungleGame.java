@@ -20,6 +20,7 @@ public class JungleGame {
     private Player player2;
     private GameState currentGameState;
     private boolean isSavedFile ;
+    private static final int CONVERT_ASCII_CHAR = 65;
 
 
     /**
@@ -247,7 +248,7 @@ public class JungleGame {
         builder.append("\n\t");
         for(int curColIndex = 0; curColIndex < stringBoard[stringBoard.length - 1].length ; curColIndex++)
         {
-            builder.append((char)(65+curColIndex) + "\t");
+            builder.append((char)(CONVERT_ASCII_CHAR+curColIndex) + "\t");
         }
 
         return builder.toString();
