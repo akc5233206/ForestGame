@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ea5ed3e-8d27-4156-af5d-990a6b0cb79a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole$Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Capture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Capture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/TrapSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/TrapSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java" afterDir="false" />
     </list>
@@ -39,71 +18,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pov3$hk_edu_polyu_comp_comp2021_jungle_in_pov3.ic" NAME="hk.edu.polyu.comp.comp2021.jungle in pov3 Coverage Results" MODIFIED="1542974366333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hk.edu.polyu.comp.comp2021.jungle.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_startConsole.ic" NAME="JungleGameConsoleTest.startConsole Coverage Results" MODIFIED="1542961988001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_exit.ic" NAME="JungleGameConsoleTest.exit Coverage Results" MODIFIED="1542963419835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pov3$All_in_pov3.ic" NAME="All in pov3 Coverage Results" MODIFIED="1542970426571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_exit.ic" NAME="JungleGameConsoleTest.exit Coverage Results" MODIFIED="1542970382917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest.ic" NAME="JungleGameConsoleTest Coverage Results" MODIFIED="1542964679633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_player2Win.ic" NAME="JungleGameConsoleTest.player2Win Coverage Results" MODIFIED="1542970585878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_player1Win.ic" NAME="JungleGameConsoleTest.player1Win Coverage Results" MODIFIED="1542967876790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest.ic" NAME="JungleGameConsoleTest Coverage Results" MODIFIED="1542967979664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="138" />
+    <option name="myElementSize" value="151" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1190144348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="37" />
+          <entry key="java" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="37" />
+          <entry key="JAVA" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="533" />
+          <entry key="java" value="1028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="533" />
+          <entry key="JAVA" value="1028" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="-988">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,9 +109,20 @@
       <find>winGrame</find>
       <find>COVERT_ACSII_CHAR</find>
       <find>private</find>
+      <find>saveFolderPath</find>
+      <find>Path</find>
+      <find>/n</find>
+      <find>moveanimal</find>
+      <find>files</find>
+      <find>next</find>
+      <find>save</find>
+      <find>userInputArray</find>
+      <find>OPNE</find>
+      <find>is not exist</find>
     </findStrings>
     <replaceStrings>
       <replace>winGame</replace>
+      <replace>\n</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/JungleGameTest.java" />
-        <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java" />
@@ -165,13 +152,16 @@
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.java" />
+        <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" />
         <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java" />
+        <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/JungleGameTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="207" />
     <option name="y" value="23" />
-    <option name="width" value="1236" />
+    <option name="width" value="1237" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -204,17 +194,13 @@
             <path>
               <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
               <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
               <item name="pov3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jungle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
@@ -274,34 +260,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.JungleGameConsoleTest">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.Application" />
-      <module name="pov3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hk.edu.polyu.comp.comp2021.jungle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.Application" />
-      <module name="pov3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hk.edu.polyu.comp.comp2021.jungle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JungleGameConsoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pov3" />
       <extension name="coverage">
@@ -316,7 +274,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JungleGameConsoleTest.checkExit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JungleGameConsoleTest.player1Win" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pov3" />
       <extension name="coverage">
         <pattern>
@@ -326,13 +284,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view" />
       <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view.JungleGameConsoleTest" />
-      <option name="METHOD_NAME" value="checkExit" />
+      <option name="METHOD_NAME" value="player1Win" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JungleGameConsoleTest.exit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JungleGameConsoleTest.player2Win" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pov3" />
       <extension name="coverage">
         <pattern>
@@ -342,42 +300,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view" />
       <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view.JungleGameConsoleTest" />
-      <option name="METHOD_NAME" value="exit" />
+      <option name="METHOD_NAME" value="player2Win" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JungleGameConsoleTest.startConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JungleGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pov3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hk.edu.polyu.comp.comp2021.jungle.view.*" />
+          <option name="PATTERN" value="hk.edu.polyu.comp.comp2021.jungle.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view" />
-      <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.view.JungleGameConsoleTest" />
-      <option name="METHOD_NAME" value="startConsole" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle.model" />
+      <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.model.JungleGameTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hk.edu.polyu.comp.comp2021.jungle in pov3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pov3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hk.edu.polyu.comp.comp2021.jungle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JungleGameConsoleTest.startConsole" />
-      <item itemvalue="JUnit.JungleGameConsoleTest.checkExit" />
-      <item itemvalue="Application.Application (1)" />
-      <item itemvalue="JUnit.JungleGameConsoleTest.exit" />
+      <item itemvalue="JUnit.JungleGameConsoleTest.player1Win" />
+      <item itemvalue="JUnit.JungleGameConsoleTest.player2Win" />
       <item itemvalue="JUnit.JungleGameConsoleTest" />
+      <item itemvalue="JUnit.JungleGameTest" />
+      <item itemvalue="JUnit.hk.edu.polyu.comp.comp2021.jungle in pov3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JungleGameConsoleTest" />
-        <item itemvalue="Application.Application (1)" />
-        <item itemvalue="JUnit.JungleGameConsoleTest.exit" />
-        <item itemvalue="JUnit.JungleGameConsoleTest.startConsole" />
-        <item itemvalue="JUnit.JungleGameConsoleTest.checkExit" />
+        <item itemvalue="JUnit.hk.edu.polyu.comp.comp2021.jungle in pov3" />
+        <item itemvalue="JUnit.JungleGameTest" />
+        <item itemvalue="JUnit.JungleGameConsoleTest.player1Win" />
+        <item itemvalue="JUnit.JungleGameConsoleTest.player2Win" />
       </list>
     </recent_temporary>
   </component>
@@ -385,56 +355,55 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="JungleGameConsoleTest_startConsole - 2018.11.23 at 16h 09m 11s.xml">
-      <configuration name="JungleGameConsoleTest.startConsole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest_startConsole - 2018.11.23 at 16h 09m 30s.xml">
-      <configuration name="JungleGameConsoleTest.startConsole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 16h 10m 42s.xml">
-      <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest_startConsole - 2018.11.23 at 16h 27m 36s.xml">
-      <configuration name="JungleGameConsoleTest.startConsole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 16h 27m 51s.xml">
-      <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest_startConsole - 2018.11.23 at 16h 33m 11s.xml">
-      <configuration name="JungleGameConsoleTest.startConsole" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 16h 34m 38s.xml">
-      <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 16h 37m 05s.xml">
-      <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JungleGameConsoleTest_exit - 2018.11.23 at 16h 57m 02s.xml">
+    <history-entry file="JungleGameConsoleTest_exit - 2018.11.23 at 19h 43m 13s.xml">
       <configuration name="JungleGameConsoleTest.exit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 17h 18m 02s.xml">
+    <history-entry file="JungleGameConsoleTest_player2Win - 2018.11.23 at 19h 48m 39s.xml">
+      <configuration name="JungleGameConsoleTest.player2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest_player2Win - 2018.11.23 at 19h 49m 48s.xml">
+      <configuration name="JungleGameConsoleTest.player2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest_player2Win - 2018.11.23 at 19h 53m 39s.xml">
+      <configuration name="JungleGameConsoleTest.player2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest_player2Win - 2018.11.23 at 19h 54m 51s.xml">
+      <configuration name="JungleGameConsoleTest.player2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest_player1Win - 2018.11.23 at 19h 55m 04s.xml">
+      <configuration name="JungleGameConsoleTest.player1Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 19h 55m 28s.xml">
+      <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameTest - 2018.11.23 at 19h 59m 14s.xml">
+      <configuration name="JungleGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="hk_edu_polyu_comp_comp2021_jungle_in_pov3 - 2018.11.23 at 19h 59m 29s.xml">
+      <configuration name="hk.edu.polyu.comp.comp2021.jungle in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JungleGameConsoleTest - 2018.11.23 at 19h 59m 48s.xml">
       <configuration name="JungleGameConsoleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1255" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="207" y="23" width="1237" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15828525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27029288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20729928" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25693431" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32554746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.36642337" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.51386863" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,7 +411,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.215169" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.33891213" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15828525" />
@@ -478,14 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10485">
           <caret line="762" selection-start-line="762" selection-end-line="762" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/JungleGameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -636,20 +597,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="239">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="144">
+          <caret line="291" column="104" selection-start-line="291" selection-start-column="104" selection-end-line="291" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/JungleGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

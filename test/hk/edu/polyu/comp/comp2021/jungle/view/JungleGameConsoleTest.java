@@ -16,6 +16,8 @@ public class JungleGameConsoleTest {
     private ByteArrayInputStream testIn;
     private ByteArrayOutputStream testOut;
 
+    private final String basePath = System.getProperty("user.dir");
+
     @Before
     public void setUpOutput() {
         testOut = new ByteArrayOutputStream();
@@ -51,7 +53,7 @@ public class JungleGameConsoleTest {
     }
 
     @Test
-    public void startConsole() {
+    public void player2Win() {
         final String inputString = "hello\n"
                 +"move\n"
                 +"\n"
@@ -65,16 +67,16 @@ public class JungleGameConsoleTest {
                 +"move A1 A3\n"
                 +"move A1 A2\n"
                 +"save\n"
-                +"save /User/Carlos\n"
-                +"save /Users/Carlos/disposed.txt\n"
+                +"save "+basePath.concat("/wrongFolder/wrongFile.txt")+"\n"
+                +"save "+basePath.concat("/boardFileForTesting/disposed.txt")+"\n"
                 +"start\n"
                 +"h\n"
                 +"N\n"
                 +"start\n"
                 +"Y\n"
                 +"open\n"
-                +"open /User/Carlos\n"
-                +"open /Users/Carlos/win.txt\n"
+                +"open "+basePath.concat("/wrongFolder/wrongFile.txt")+"\n"
+                +"open "+basePath.concat("/boardFileForTesting/player2win.txt")+"\n"
                 +"move D2 D1\n";
         provideInput(inputString);
         JungleGame junleGame2 = new JungleGame();
@@ -133,7 +135,7 @@ public class JungleGameConsoleTest {
                 +"The save command is not valid. \n"
                 +"Please enter the new save command again. e.g save C:\\Users\\Username\\Desktop\\\n"
                 +"Player 2 input's : \n"
-                +"The inputted location for saving Jungle Game State is not exist.\n"
+                +"The inputted location for saving Jungle Game State does not exist.\n"
                 +"Please enter the save command again.\n"
                 +"Player 2 input's : \n"
                 +"The current Jungle board game is already saved into your specific location.\n"
@@ -144,7 +146,7 @@ public class JungleGameConsoleTest {
                 +"Do you want to restart the jungle game? (Y/N)\n"
                 +"Input : The open command is not valid. \n"
                 +"Please enter the new open command again. e.g open C:\\Users\\Username\\Desktop\\\n"
-                +"Input : The inputted location for opening Jungle Game State is not exist.\n"
+                +"Input : The inputted location for opening Jungle Game State does not exist.\n"
                 +"Please enter the open command again.\n"
                 +"Input : The current Jungle board game is already loaded from your specific location.\n"
                 +"The loaded Jungle Game Board : \n"
@@ -178,6 +180,46 @@ public class JungleGameConsoleTest {
                 +"Exit the current Jungle Board Game.\n";
 
         assertEquals(outString, getOutput());
+    }
 
+    @Test
+    public void player1Win() {
+        final String inputString = "open "+basePath.concat("/boardFileForTesting/player1win.txt")+"\n"
+                +"move D8 D9\n";
+        provideInput(inputString);
+        JungleGame junleGame2 = new JungleGame();
+        JungleGameConsole console2 = new JungleGameConsole(junleGame2);
+        console2.startConsole();
+        final String outString = "Input : The current Jungle board game is already loaded from your specific location.\n"
+                +"The loaded Jungle Game Board : \n"
+                +"\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	Le 	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"Player 1 input's : \n"
+                +"The movement command is completed.\n"
+                +"The current board state will be printed as follows: \n"
+                +"9	Li'	 	#	Le 	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"The winner is Player 1 : Carlos*\n"
+                +"Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
     }
 }
