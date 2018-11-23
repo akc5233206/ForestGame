@@ -12,7 +12,7 @@ public abstract class AnimalPieces implements Movement, Capture {
     private int rank;
     private String piecesName;
     private Player player;
-    private boolean inTrap;
+
     private String abbreviation;
 
     /**
@@ -28,7 +28,6 @@ public abstract class AnimalPieces implements Movement, Capture {
         this.rank = rank;
         this.piecesName = piecesName;
         this.player = player;
-        this.inTrap = false;
         this.abbreviation = abbreviation;
     }
 
@@ -72,24 +71,5 @@ public abstract class AnimalPieces implements Movement, Capture {
     public Player getPlayer()
     {
         return this.player;
-    }
-
-
-    /**
-     * Gets in trap.
-     *
-     * @return the in trap
-     */
-    public boolean getInTrap() {return this.inTrap;}
-
-
-    /**
-     * Sets in trap.
-     *
-     * @param inTrap the in trap
-     */
-    public void setInTrap(boolean inTrap)
-    {
-        this.inTrap = inTrap;
     }
 }

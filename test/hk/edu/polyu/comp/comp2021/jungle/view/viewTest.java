@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class JungleGameConsoleTest {
+public class viewTest {
     private final InputStream systemIn = System.in;
     private final PrintStream systemOut = System.out;
 

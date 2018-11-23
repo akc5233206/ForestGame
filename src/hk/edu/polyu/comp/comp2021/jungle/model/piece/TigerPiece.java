@@ -72,12 +72,6 @@ public class TigerPiece extends AnimalPieces implements Movement, Capture {
                 movementSuccess = true;
             }
         }
-
-        if(movementSuccess)
-        {
-            getInsideOrOutsideTrap(sourceSquare, destSquare);
-        }
-
         return movementSuccess;
     }
 

@@ -61,24 +61,6 @@ public interface Movement {
     }
 
     /**
-     * Gets inside or outside trap.
-     *
-     * @param sourceSquare the source square
-     * @param destSquare   the dest square
-     */
-    default void getInsideOrOutsideTrap(Square sourceSquare , Square destSquare)
-    {
-        if(TrapSquare.class.isInstance(sourceSquare))
-        {
-            destSquare.getAnimal().setInTrap(false);
-        }
-        if(TrapSquare.class.isInstance(destSquare))
-        {
-            destSquare.getAnimal().setInTrap(true);
-        }
-    }
-
-    /**
      * Is den.
      */
     default void isDen()
