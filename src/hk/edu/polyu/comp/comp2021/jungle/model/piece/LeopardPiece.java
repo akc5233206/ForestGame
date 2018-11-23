@@ -9,7 +9,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 /**
  * The type Leopard piece.
  */
-public class LeopardPiece extends AnimalPieces implements Movement, Capture {
+public class LeopardPiece extends AnimalPieces {
 
     /**
      * Instantiates a new Leopard piece.
