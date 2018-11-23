@@ -9,7 +9,7 @@ import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 /**
  * The type Cat piece.
  */
-public class CatPiece extends AnimalPieces implements Movement, Capture {
+public class CatPiece extends AnimalPieces {
 
     /**
      * Instantiates a new Cat piece.
