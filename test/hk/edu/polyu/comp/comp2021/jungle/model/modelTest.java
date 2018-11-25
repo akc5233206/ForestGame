@@ -1,14 +1,18 @@
 package hk.edu.polyu.comp.comp2021.jungle.model;
 
 import hk.edu.polyu.comp.comp2021.jungle.view.JungleGameConsole;
+import hk.edu.polyu.comp.comp2021.jungle.controller.JungleGame;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -40,6 +44,46 @@ public class modelTest {
     public void restoreSystemInputOutput() {
         System.setIn(systemIn);
         System.setOut(systemOut);
+    }
+
+    @Test
+    public void createNewPlayer() {
+
+        String[] a = { "ELEPHANT", "LION", "TIGER", "LEOPARD", "WOLF", "DOG","CAT", "Rat" };
+
+        Player player1 = new Player("Billy", 1);
+        Player player2 = new Player("Karen", 2);
+        Player player3 = new Player("Billy",3, a);
+        Player player4 = new Player("Kate",4, a);
+
+
+        assertEquals(player1.getName(),"Billy");
+        assertEquals(player2.getName(),"Karen");
+        assertEquals(player3.getName(),"Billy");
+        assertEquals(player4.getName(),"Kate");
+        assertEquals(player1.getPlayerID(),1);
+        assertEquals(player2.getPlayerID(),2);
+        assertEquals(player3.getPlayerID(),3);
+        assertEquals(player4.getPlayerID(),4);
+
+    }
+
+    @Test
+    public void testboard(){
+        Board board = new Board();
+
+        Player player1 = new Player("Billy", 1);
+        Player player2 = new Player("Karen", 2);
+
+        board.initNewGameBoard(player1,player2);
+        List<String> jungleBoardState = new ArrayList<>();
+
+        board.saveGameBoard();
+        board.clearGameBoard();
+        board.printGameBoard(player2);
+        board.movePieceOnBoard(player1,"A1","A2");
+        board.loadGameBoard(jungleBoardState,player1,player2);
+
     }
 
     @Test
@@ -174,6 +218,7 @@ public class modelTest {
         assertEquals(outString, getOutput());
     }
 
+    @Test
     public void case6_2_3(){
         final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.2.txt")+"\n"
                 + "move G9 F9\n"
@@ -186,6 +231,43 @@ public class modelTest {
                 + "move A6 A5\n"
                 + "move F9 E9\n"
 
+                + "exit\n";
+        provideInput(inputString);
+        JungleGame junleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(junleGame);
+        console.startConsole();
+        final String outString = "Input : Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
+    }
+
+    @Test
+    public void case7(){
+        final String inputString = "open "+basePath.concat("/boardFileForTesting/case7.txt")+"\n"
+                + "move B3 B7\n"
+                + "exit\n";
+        provideInput(inputString);
+        JungleGame junleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(junleGame);
+        console.startConsole();
+        final String outString = "Input : Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
+    }
+    @Test
+    public void case8(){
+        final String inputString = "open "+basePath.concat("/boardFileForTesting/case8.txt")+"\n"
+                + "move B3 B7\n"
+                + "exit\n";
+        provideInput(inputString);
+        JungleGame junleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(junleGame);
+        console.startConsole();
+        final String outString = "Input : Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
+    }
+    @Test
+    public void case9(){
+        final String inputString = "open "+basePath.concat("/boardFileForTesting/case10.txt")+"\n"
+                + "move B3 B7\n"
                 + "exit\n";
         provideInput(inputString);
         JungleGame junleGame = new JungleGame();

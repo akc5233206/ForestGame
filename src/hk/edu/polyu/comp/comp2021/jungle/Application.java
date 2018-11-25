@@ -1,6 +1,6 @@
 package hk.edu.polyu.comp.comp2021.jungle;
 
-import hk.edu.polyu.comp.comp2021.jungle.model.JungleGame;
+import hk.edu.polyu.comp.comp2021.jungle.controller.JungleGame;
 import hk.edu.polyu.comp.comp2021.jungle.view.JungleGameConsole;
 
 /**
@@ -14,8 +14,8 @@ public class Application {
      * @param args the input arguments for main class
      */
     public static void main(String[] args) {
-        JungleGame junleGame = new JungleGame();
-        JungleGameConsole console = new JungleGameConsole(junleGame);
+        JungleGame jungleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(jungleGame);
         console.startConsole();
     }
 }

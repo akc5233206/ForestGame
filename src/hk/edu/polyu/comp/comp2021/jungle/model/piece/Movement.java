@@ -1,5 +1,6 @@
-package hk.edu.polyu.comp.comp2021.jungle.model;
+package hk.edu.polyu.comp.comp2021.jungle.model.piece;
 
+import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.RiverSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.TrapSquare;
@@ -60,13 +61,6 @@ public interface Movement {
         return result;
     }
 
-    /**
-     * Is den.
-     */
-    default void isDen()
-    {
-
-    }
 
 
     /**

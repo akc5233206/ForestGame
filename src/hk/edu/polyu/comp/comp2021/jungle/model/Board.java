@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * The type Board.
  */
-class Board {
+public class Board {
     private HashMap<String, Square> boardMap;
     private final int BOARD_ROW_SIZE = 9;
     private final int BOARD_COLUMN_SIZE = 7;
@@ -19,7 +19,7 @@ class Board {
     /**
      * Instantiates a new Board.
      */
-    Board()
+    public Board()
     {
         boardMap = new HashMap<String, Square>();
     }
@@ -32,7 +32,7 @@ class Board {
      * @param player2 the player 2
      * @return the boolean
      */
-    boolean initNewGameBoard(Player player1, Player player2)
+    public boolean initNewGameBoard(Player player1, Player player2)
     {
         if(boardMap == null ){return false;}
         char colChar;
@@ -209,7 +209,7 @@ class Board {
      *
      * @return the list
      */
-    List<String> saveGameBoard()
+    public List<String> saveGameBoard()
     {
         List<String> boardList = new ArrayList<>();
         for(String keyName : boardMap.keySet())
@@ -236,7 +236,7 @@ class Board {
      * @param player2          the player 2
      * @return the boolean
      */
-    boolean loadGameBoard(List<String> jungleBoardState, Player player1, Player player2)
+    public boolean loadGameBoard(List<String> jungleBoardState, Player player1, Player player2)
     {
         boolean loadGameBoardSuccess = false;
         try
@@ -274,7 +274,7 @@ class Board {
     /**
      * Clear game board.
      */
-    void clearGameBoard()
+    public void clearGameBoard()
     {
         if(this.boardMap.size() == 0)
         {
@@ -300,7 +300,7 @@ class Board {
      * @param player2 the player 2
      * @return the string [ ] [ ]
      */
-    String[][] printGameBoard(Player player2)
+    public String[][] printGameBoard(Player player2)
     {
         String[][] jungleBoard = new String[BOARD_ROW_SIZE][BOARD_COLUMN_SIZE];
         for ( String squareID : boardMap.keySet() ) {
@@ -342,199 +342,25 @@ class Board {
      * @param destLocation   the dest location
      * @return the boolean
      */
-    boolean movePieceOnBoard (Player movePlayer, String sourceLocation, String destLocation)
+    public boolean movePieceOnBoard (Player movePlayer, String sourceLocation, String destLocation)
     {
-        //Check the sourceLocation is exist in the Jungle Board or not.
         boolean moveSuccess = false;
         if(!isSquare(sourceLocation) || !isSquare(destLocation)){ return moveSuccess;}
         Square sourceSquare = boardMap.get(sourceLocation);
         Square destSquare = boardMap.get(destLocation);
 
-
-        //Check the source square contains the animal or not.
-        //Check the selected animal is belong to the current player or not.
         if(sourceSquare.getAnimal() == null ||
                 sourceSquare.getAnimal().getPlayer() != movePlayer) {return moveSuccess;}
 
 
-        //determine the position of the source square and destination square.
-        //Check the distinct between source square and destination square.
-        // Two part of if statement will check the type of movement (jumping and walking)
-        // First the if statement will check the jumping movement first, then walking.
-        // In the "jumping" movement, the the function will check the location of source square about is it around the river?
-        // Also, the animal type in source's square will also be checked.
 
         if(sourceSquare.getAnimal().isValidMovement(movePlayer, sourceSquare,destSquare))
         {
             moveSuccess = sourceSquare.getAnimal().moveToBoardDestination(movePlayer, sourceSquare,destSquare);
         }
 
-
-/*        if((sourceSquare.getRowPosition() == destSquare.getRowPosition() && sourceSquare.getColumnPosition() + 3 == destSquare.getColumnPosition() )||
-                (sourceSquare.getRowPosition() == destSquare.getRowPosition() && sourceSquare.getColumnPosition() - 3 == destSquare.getColumnPosition()) ||
-                (sourceSquare.getRowPosition() + 4 == destSquare.getRowPosition() && sourceSquare.getColumnPosition() == destSquare.getColumnPosition()) ||
-                (sourceSquare.getRowPosition() - 4 == destSquare.getRowPosition() && sourceSquare.getColumnPosition() == destSquare.getColumnPosition()))
-        {
-            if(isAroundRiver(sourceSquare.getRowPosition(), sourceSquare.getColumnPosition()) &&
-                    (sourceSquare.getAnimal().getClass().isInstance(LionPiece.class) || sourceSquare.getAnimal().getClass().isInstance(TigerPiece.class)))
-            {
-                moveSuccess = movePieceToBoardLand(movePlayer, sourceSquare, destSquare);
-            }
-
-        }else if((sourceSquare.getRowPosition()+ 1 == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() == destSquare.getColumnPosition() )||
-                (sourceSquare.getRowPosition() - 1 == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() == destSquare.getColumnPosition() )||
-                (sourceSquare.getRowPosition() == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() + 1 == destSquare.getColumnPosition() )||
-                (sourceSquare.getRowPosition() == destSquare.getRowPosition() &&  sourceSquare.getColumnPosition() - 1 == destSquare.getColumnPosition() ))
-        {
-            if(destSquare.getClass().isInstance(RiverSquare.class))
-            {
-                if(sourceSquare.getAnimal() instanceof RatPiece)
-                {
-                    moveSuccess = movePieceToBoardRiver(movePlayer, sourceSquare, destSquare);
-                }
-
-            }else if(destSquare instanceof LandSquare)
-            {
-                moveSuccess = movePieceToBoardLand(movePlayer, sourceSquare, destSquare);
-            }else if(destSquare instanceof DenSquare)
-            {
-                moveSuccess = movePieceToBoardDen(movePlayer , sourceSquare, destSquare);
-            }else if(destSquare instanceof  TrapSquare)
-            {
-                moveSuccess = movePieceToBoardTraps(movePlayer, sourceSquare, destSquare);
-            }
-
-
-
-        }*/
-
         return moveSuccess;
     }
-
-/*    private Boolean movePieceToBoardLand(Player movePlayer, Square sourceSquare, Square destSquare)
-    {
-        boolean landMovementSuccess = false;
-        // Check any animal is contained by the destination's square or not.
-        if(destSquare.getAnimal() != null)
-        {
-            if(destSquare.getAnimal().getPlayer() != movePlayer)
-            {
-                landMovementSuccess = eatAnimal(sourceSquare, destSquare);
-            }
-
-        }else
-        {
-            destSquare.setAnimal(sourceSquare.getAnimal());
-            sourceSquare.setAnimal(null);
-            landMovementSuccess = true;
-        }
-
-
-        //Move out from the trap.
-        if(destSquare.getAnimal().getInTrap())
-        {
-            destSquare.getAnimal().setInTrap(false);
-        }
-
-        return landMovementSuccess;
-    }*/
-
-/*    private Boolean movePieceToBoardRiver(Player movePlayer, Square sourceSquare, Square destSquare)
-    {
-        boolean riverMoveMentSuccess = false;
-        if(destSquare.getAnimal() == null)
-        {
-            destSquare.setAnimal(sourceSquare.getAnimal());
-            sourceSquare.setAnimal(null);
-            riverMoveMentSuccess = true;
-        }else if(sourceSquare instanceof RiverSquare && destSquare.getAnimal() != null)
-        {
-            if(destSquare.getAnimal().getPlayer() != movePlayer)
-            {
-                destSquare.setAnimal(sourceSquare.getAnimal());
-                sourceSquare.setAnimal(null);
-                riverMoveMentSuccess = true;
-            }
-        }
-        return riverMoveMentSuccess;
-    }*/
-
-
-/*    private Boolean movePieceToBoardTraps(Player movePlayer, Square sourceSquare, Square destSquare)
-    {
-        boolean trapsMovementSuccess = false;
-
-        if(destSquare.getAnimal() != null)
-        {
-            if(destSquare.getAnimal().getPlayer() != movePlayer)
-            {
-                trapsMovementSuccess = eatAnimal(sourceSquare, destSquare);
-            }
-
-        }else
-        {
-            destSquare.setAnimal(sourceSquare.getAnimal());
-            sourceSquare.setAnimal(null);
-            trapsMovementSuccess = true;
-        }
-
-        // Move into the trap
-        destSquare.getAnimal().setInTrap(true);
-
-        return trapsMovementSuccess;
-    }*/
-
-/*    private Boolean movePieceToBoardDen(Player movePlayer, Square sourceSquare, Square destSquare)
-    {
-        boolean denMovementSuccess = false;
-        if(sourceSquare.getAnimal().getPlayer() != ((DenSquare) destSquare).getPlayerObj())
-        {
-            destSquare.setAnimal(sourceSquare.getAnimal());
-            sourceSquare.setAnimal(null);
-            movePlayer.setWinGame(true);
-            denMovementSuccess = true;
-        }
-        return denMovementSuccess;
-    }*/
-
-
-/*    private Boolean eatAnimal(Square sourceSquare, Square destSquare)
-    {
-        boolean eatSuccess = false;
-        if((sourceSquare.getAnimal().getRank() >= destSquare.getAnimal().getRank() &&
-                ((sourceSquare instanceof RiverSquare && destSquare instanceof RiverSquare)||
-                        (sourceSquare instanceof LandSquare && destSquare instanceof LandSquare))) ||
-                sourceSquare.getAnimal() instanceof  RatPiece && destSquare.getAnimal() instanceof ElephantPiece||
-                destSquare instanceof TrapSquare)
-        {
-            destSquare.getAnimal().getPlayer().removePiece(destSquare.getAnimal().getPiecesName());
-            destSquare.setAnimal(sourceSquare.getAnimal());
-            sourceSquare.setAnimal(null);
-            eatSuccess = true;
-        }
-        return eatSuccess;
-    }*/
-
-
-/*    private Boolean isAroundRiver(int sourceRow , char sourceCol)
-    {
-        boolean result = false;
-        switch (sourceCol)
-        {
-            case 'A':
-            case 'D':
-            case 'G':
-                result = sourceRow >= 4 && sourceRow <=6;
-                break;
-            case 'B':
-            case 'C':
-            case 'E':
-            case 'F':
-                result = sourceRow == 3 || sourceRow == 7;
-                break;
-        }
-        return result;
-    }*/
 
 
     /**
@@ -543,7 +369,7 @@ class Board {
      * @param square the square
      * @return the boolean
      */
-    boolean isSquare(String square)
+    public boolean isSquare(String square)
     {
         return this.boardMap.containsKey(square);
     }

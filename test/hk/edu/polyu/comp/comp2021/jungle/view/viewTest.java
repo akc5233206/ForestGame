@@ -1,6 +1,6 @@
 package hk.edu.polyu.comp.comp2021.jungle.view;
 
-import hk.edu.polyu.comp.comp2021.jungle.model.JungleGame;
+import hk.edu.polyu.comp.comp2021.jungle.controller.JungleGame;
 import java.io.*;
 
 import org.junit.After;
@@ -45,8 +45,8 @@ public class viewTest {
     public void exit() {
         final String inputString = "exit\n";
         provideInput(inputString);
-        JungleGame junleGame = new JungleGame();
-        JungleGameConsole console = new JungleGameConsole(junleGame);
+        JungleGame jungleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(jungleGame);
         console.startConsole();
         final String outString = "Input : Exit the current Jungle Board Game.\n";
         assertEquals(outString, getOutput());
@@ -79,8 +79,8 @@ public class viewTest {
                 +"open "+basePath.concat("/boardFileForTesting/player2win.txt")+"\n"
                 +"move D2 D1\n";
         provideInput(inputString);
-        JungleGame junleGame2 = new JungleGame();
-        JungleGameConsole console2 = new JungleGameConsole(junleGame2);
+        JungleGame jungleGame2 = new JungleGame();
+        JungleGameConsole console2 = new JungleGameConsole(jungleGame2);
         console2.startConsole();
         final String outString = "Input : The input command is not valid.\n"
                 +"Input : The jungle game is not yet started. \n"
@@ -92,6 +92,13 @@ public class viewTest {
                 +"Player 2 (Lambert) is created.\n"
                 +"===============================================\n"
                 +"The Player 1 name : Carlos	The Player 2 name : Lambert\n"
+                +"The following symbols are representing the pieces and squares of Jungle Board Game in the Command Prompt:\n"
+                +"Pieces: \n"
+                +"E : Elephant 	 Li : Lion 	 T : Tiger 	 Le : Leopard\n"
+                +"W : Wolf 		 D : Dog 	 C : Cat 	 R : Rat\n"
+                +"Square: \n"
+                +"# : Trap 	 @ : Den 	 ^ : river\n"
+                +"P.S. \"'\", behind the symbol is representing the piece for Player 2. \n"
                 +"The new Jungle Game Board is created : \n"
                 +"\n"
                 +"9	Li'	 	#	@	#	 	T'	\n"
@@ -108,15 +115,59 @@ public class viewTest {
                 +"Player 1 input's : \n"
                 +"The movement command is not valid. \n"
                 +"Please enter the new movement command again. e.g move A1 A2\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
                 +"Player 1 input's : \n"
                 +"The inputted square(Z1) is/are not exist in the Jungle game board. \n"
                 +"Please enter the new movement command again.\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
                 +"Player 1 input's : \n"
                 +"The inputted square(Z2) is/are not exist in the Jungle game board. \n"
                 +"Please enter the new movement command again.\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
                 +"Player 1 input's : \n"
                 +"The movement command cannot completed.\n"
                 +"Please try again or enter the new movement command.\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
                 +"Player 1 input's : \n"
                 +"The movement command is completed.\n"
                 +"The current board state will be printed as follows: \n"
@@ -176,8 +227,9 @@ public class viewTest {
                 +"1	 	 	#	Le'	#	 	Li 	\n"
                 +"\n"
                 +"	A	B	C	D	E	F	G	\n"
-                +"The winner is Player 2 : Lambert*\n"
+                +"The winner is Player 2 : Lambert\n"
                 +"Exit the current Jungle Board Game.\n";
+
 
         assertEquals(outString, getOutput());
     }
@@ -187,8 +239,8 @@ public class viewTest {
         final String inputString = "open "+basePath.concat("/boardFileForTesting/player1win.txt")+"\n"
                 +"move D8 D9\n";
         provideInput(inputString);
-        JungleGame junleGame2 = new JungleGame();
-        JungleGameConsole console2 = new JungleGameConsole(junleGame2);
+        JungleGame jungleGame2 = new JungleGame();
+        JungleGameConsole console2 = new JungleGameConsole(jungleGame2);
         console2.startConsole();
         final String outString = "Input : The current Jungle board game is already loaded from your specific location.\n"
                 +"The loaded Jungle Game Board : \n"
@@ -218,7 +270,7 @@ public class viewTest {
                 +"1	T 	 	#	@	#	 	Li 	\n"
                 +"\n"
                 +"	A	B	C	D	E	F	G	\n"
-                +"The winner is Player 1 : Carlos*\n"
+                +"The winner is Player 1 : Carlos\n"
                 +"Exit the current Jungle Board Game.\n";
         assertEquals(outString, getOutput());
     }

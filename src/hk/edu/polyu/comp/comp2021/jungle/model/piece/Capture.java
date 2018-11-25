@@ -1,4 +1,4 @@
-package hk.edu.polyu.comp.comp2021.jungle.model;
+package hk.edu.polyu.comp.comp2021.jungle.model.piece;
 
 import hk.edu.polyu.comp.comp2021.jungle.model.square.LandSquare;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.Square;

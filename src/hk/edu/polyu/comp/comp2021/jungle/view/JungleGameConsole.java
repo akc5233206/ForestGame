@@ -1,6 +1,6 @@
 package hk.edu.polyu.comp.comp2021.jungle.view;
 
-import hk.edu.polyu.comp.comp2021.jungle.model.JungleGame;
+import hk.edu.polyu.comp.comp2021.jungle.controller.JungleGame;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -203,6 +203,13 @@ public class JungleGameConsole {
                         }
                         System.out.println("===============================================");
                         System.out.printf("The Player 1 name : %s\tThe Player 2 name : %s\n", player1Name,player2Name);
+                        System.out.println("The following symbols are representing the pieces and squares of Jungle Board Game in the Command Prompt:");
+                        System.out.println("Pieces: ");
+                        System.out.println("E : Elephant \t Li : Lion \t T : Tiger \t Le : Leopard");
+                        System.out.println("W : Wolf \t\t D : Dog \t C : Cat \t R : Rat");
+                        System.out.println("Square: ");
+                        System.out.println("# : Trap \t @ : Den \t ^ : river");
+                        System.out.println("P.S. \"'\", behind the symbol is representing the piece for Player 2. ");
                         System.out.println("The new Jungle Game Board is created : \n");
                         System.out.println(jungleGame.getStringGameBoard());
                         this.gameStated = true;
@@ -245,18 +252,19 @@ public class JungleGameConsole {
                                 if(jungleGame.moveAnimalOnBoard(userInputArray[1], userInputArray[2]))
                                 {
                                     System.out.println("The movement command is completed.\nThe current board state will be printed as follows: ");
-                                    System.out.println(jungleGame.getStringGameBoard());
+
                                 }else
                                 {
                                     System.out.println("The movement command cannot completed.\nPlease try again or enter the new movement command.");
                                 }
                             }
                         }
+                        System.out.println(jungleGame.getStringGameBoard());
                     }
                     break;
                 case CMD_SAVE:
                     if(gameStated) {
-                        if (userInputArray.length <= 2) { //changed from != to <= by Carlos 23/NOV/2018
+                        if (userInputArray.length < 2) { //changed from != to <= by Carlos 23/NOV/2018
                             System.out.println("The save command is not valid. \nPlease enter the new save command again. e.g save C:\\Users\\Username\\Desktop\\");
                         } else {
                             //Check folder exist
@@ -279,7 +287,7 @@ public class JungleGameConsole {
                     }
                     break;
                 case CMD_OPNE:
-                    if(userInputArray.length <= 2) //changed from != to <= by Carlos 23/NOV/2018
+                    if(userInputArray.length < 2) //changed from != to <= by Carlos 23/NOV/2018
                     {
                         System.out.println("The open command is not valid. \nPlease enter the new open command again. e.g open C:\\Users\\Username\\Desktop\\");
                     }else

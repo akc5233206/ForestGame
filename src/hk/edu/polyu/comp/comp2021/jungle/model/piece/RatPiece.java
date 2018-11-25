@@ -1,7 +1,5 @@
 package hk.edu.polyu.comp.comp2021.jungle.model.piece;
 
-import hk.edu.polyu.comp.comp2021.jungle.model.Capture;
-import hk.edu.polyu.comp.comp2021.jungle.model.Movement;
 import hk.edu.polyu.comp.comp2021.jungle.model.Player;
 import hk.edu.polyu.comp.comp2021.jungle.model.square.*;
 
