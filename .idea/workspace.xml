@@ -6,49 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5ea5ed3e-8d27-4156-af5d-990a6b0cb79a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/Capture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/Movement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pov3/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pov3/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Capture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/controller/JungleGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LeopardPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/TigerPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/WolfPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/TrapSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/TrapSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_ForestGame-master.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,26 +17,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pov3$hk_edu_polyu_comp_comp2021_jungle_in_pov3.ic" NAME="hk.edu.polyu.comp.comp2021.jungle in pov3 Coverage Results" MODIFIED="1542986912122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pov3$hk_edu_polyu_comp_comp2021_jungle_in_pov3.ic" NAME="hk.edu.polyu.comp.comp2021.jungle in pov3 Coverage Results" MODIFIED="1543133813381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$viewTest.ic" NAME="viewTest Coverage Results" MODIFIED="1543120244707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pov3$viewTest.ic" NAME="viewTest Coverage Results" MODIFIED="1543231864662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_startConsole.ic" NAME="JungleGameConsoleTest.startConsole Coverage Results" MODIFIED="1542961988001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$All_in_pov3.ic" NAME="All in pov3 Coverage Results" MODIFIED="1543074008126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pov3$All_in_pov3.ic" NAME="All in pov3 Coverage Results" MODIFIED="1543233939503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_exit.ic" NAME="JungleGameConsoleTest.exit Coverage Results" MODIFIED="1542970382917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_player2Win.ic" NAME="JungleGameConsoleTest.player2Win Coverage Results" MODIFIED="1542970585878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/pov3$Application.ic" NAME="Application Coverage Results" MODIFIED="1543232251775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hk.edu.polyu.comp.comp2021.jungle.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_player1Win.ic" NAME="JungleGameConsoleTest.player1Win Coverage Results" MODIFIED="1542967876790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$modelTest.ic" NAME="modelTest Coverage Results" MODIFIED="1543074086877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pov3$modelTest.ic" NAME="modelTest Coverage Results" MODIFIED="1543135232389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest.ic" NAME="JungleGameConsoleTest Coverage Results" MODIFIED="1542967979664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -90,38 +53,40 @@
     <session id="-1190144348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="94" />
-          <entry key="plantuml" value="4" />
+          <entry key="java" value="150" />
+          <entry key="plantuml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="94" />
+          <entry key="JAVA" value="150" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="PlantUML file" value="3" />
+          <entry key="PlantUML file" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="1374" />
+          <entry key="java" value="1494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1374" />
+          <entry key="JAVA" value="1494" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -130,13 +95,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java">
+        <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="3">
+              <caret line="1170" column="34" selection-start-line="1170" selection-start-column="34" selection-end-line="1170" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/JungleGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1080">
+              <caret line="135" column="54" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -152,9 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>exitGame</find>
-      <find>exit</find>
-      <find>print</find>
       <find>getByUserStringInput</find>
       <find>isWin</find>
       <find>scanUserInput</find>
@@ -173,6 +144,18 @@
       <find>is not exist</find>
       <find>getInsideOr</find>
       <find>C</find>
+      <find>default</find>
+      <find>colChar</find>
+      <find>Player</find>
+      <find>AnimalPieces</find>
+      <find>checkInputSquareExit</find>
+      <find>get</find>
+      <find>move</find>
+      <find>CMD_MOVE</find>
+      <find>moveAnimalOnBoard</find>
+      <find>isSquare</find>
+      <find>capture</find>
+      <find>playerPiece</find>
     </findStrings>
     <replaceStrings>
       <replace>winGame</replace>
@@ -215,7 +198,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
+    <option name="x" value="43" />
     <option name="y" value="23" />
     <option name="width" value="1237" />
     <option name="height" value="777" />
@@ -240,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,70 +232,10 @@
               <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
               <item name="pov3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="piece" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pov3" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jungle" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.viewTest">
+  <component name="RunManager" selected="JUnit.All in pov3">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.Application" />
       <module name="pov3" />
@@ -382,7 +306,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modelTest.case1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="modelTest.case15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pov3" />
       <extension name="coverage">
         <pattern>
@@ -392,7 +316,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="hk.edu.polyu.comp.comp2021.jungle.model" />
       <option name="MAIN_CLASS_NAME" value="hk.edu.polyu.comp.comp2021.jungle.model.modelTest" />
-      <option name="METHOD_NAME" value="case1" />
+      <option name="METHOD_NAME" value="case15" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -414,18 +338,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.modelTest.case1" />
       <item itemvalue="JUnit.modelTest" />
       <item itemvalue="JUnit.All in pov3" />
       <item itemvalue="JUnit.viewTest" />
+      <item itemvalue="JUnit.modelTest.case15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in pov3" />
+        <item itemvalue="JUnit.modelTest.case15" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.viewTest" />
         <item itemvalue="JUnit.modelTest" />
-        <item itemvalue="JUnit.All in pov3" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.modelTest.case1" />
       </list>
     </recent_temporary>
   </component>
@@ -433,48 +357,48 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_pov3 - 2018.11.24 at 00h 17m 03s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.24 at 01h 04m 08s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.24 at 01h 14m 33s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.24 at 01h 14m 45s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.24 at 20h 11m 04s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="viewTest - 2018.11.24 at 23h 38m 57s.xml">
-      <configuration name="viewTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="modelTest - 2018.11.24 at 23h 39m 43s.xml">
+    <history-entry file="modelTest - 2018.11.26 at 19h 29m 04s.xml">
       <configuration name="modelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.24 at 23h 40m 11s.xml">
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 29m 23s.xml">
       <configuration name="All in pov3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="modelTest - 2018.11.24 at 23h 41m 29s.xml">
-      <configuration name="modelTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="viewTest - 2018.11.25 at 12h 30m 48s.xml">
+    <history-entry file="viewTest - 2018.11.26 at 19h 31m 07s.xml">
       <configuration name="viewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 31m 21s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 33m 28s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="modelTest_case15 - 2018.11.26 at 19h 44m 26s.xml">
+      <configuration name="modelTest.case15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 44m 37s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 45m 50s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 46m 27s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 20h 05m 43s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1237" height="777" extended-state="0" />
+    <frame x="43" y="23" width="1237" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40585774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3531381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25547445" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16350365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32554746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,24 +414,24 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.017573223" />
-      <window_info anchor="right" id="PlantUML" order="7" weight="0.5623431" />
+      <window_info anchor="right" id="PlantUML" order="7" weight="0.3757322" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15828525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34309623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20729928" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23941606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32554746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.36642337" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.51386863" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,7 +439,8 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.41549876" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.017573223" />
+      <window_info anchor="right" id="PlantUML" order="7" weight="0.3757322" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -530,34 +455,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/JungleGameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Capture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3893">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Capture.java" />
     <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/ElephantPiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -569,20 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -600,31 +484,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="647">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -635,74 +507,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/jungle.plantuml" />
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pov3.plantuml" />
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/DogPiece.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/square.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/piece.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/model.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/LionPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/view.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/jungle.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/RiverSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/Capture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/Movement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/controller.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/LandSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/square/DenSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="281" column="46" lean-forward="true" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/CatPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/JungleGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/RatPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/JungleGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="135" column="54" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="762">
+          <caret line="268" column="55" lean-forward="true" selection-start-line="268" selection-start-column="55" selection-end-line="268" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="1170" column="34" selection-start-line="1170" selection-start-column="34" selection-end-line="1170" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
