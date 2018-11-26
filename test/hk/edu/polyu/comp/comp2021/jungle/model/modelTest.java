@@ -89,7 +89,7 @@ public class modelTest {
     // Case 1: Test the basic move
     @Test
     public void case1(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case1.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case1.txt")+"\n"
                 + "move A9 A8\n"
                 + "exit\n";
         provideInput(inputString);
@@ -132,7 +132,7 @@ public class modelTest {
     // Case 2: Moving diagonally
     @Test
     public void case2(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case2.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case2.txt")+"\n"
                 + "move F2 F1\n"
                 + "move A9 A8\n"
                 + "move F1 E2\n"
@@ -205,7 +205,7 @@ public class modelTest {
     // Case 3 : Trying to move something other than piece
     @Test
     public void case3(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case3.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case3.txt")+"\n"
                 + "move C4 C5\n"
                 + "exit\n";
         provideInput(inputString);
@@ -248,7 +248,7 @@ public class modelTest {
     // Case 4 : Testing the multiple steps
     @Test
     public void case4(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case4.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case4.txt")+"\n"
                 + "move A7 A4\n"
                 + "exit\n";
         provideInput(inputString);
@@ -291,7 +291,7 @@ public class modelTest {
     // Case 5 : Try to walk to your own den
     @Test
     public void case5(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case5.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case5.txt")+"\n"
                 + "move G9 F9\n"
                 + "move A1 B1\n"
                 + "move F9 E9\n"
@@ -394,7 +394,7 @@ public class modelTest {
     // Case 6 : Test whether the rat is unable to catch in the river
     @Test
     public void case6(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case6.txt")+"\n"
                 + "move G3 F3\n"
                 + "move G7 F7\n"
                 + "move F3 F4\n"
@@ -541,7 +541,7 @@ public class modelTest {
 
     @Test
     public void case6_1(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case6.txt")+"\n"
                 + "move F6 F7\n"
                 + "exit\n";
         provideInput(inputString);
@@ -583,7 +583,7 @@ public class modelTest {
 
     @Test
     public void case6_2(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.2.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case6.2.txt")+"\n"
                 + "move A3 A4\n"
                 + "move F7 G7\n"
                 + "move F6 F7\n"
@@ -655,7 +655,7 @@ public class modelTest {
 
     @Test
     public void case6_2_1(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.2.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case6.2.txt")+"\n"
                 + "move G7 F7\n"
                 + "exit\n";
         provideInput(inputString);
@@ -697,7 +697,7 @@ public class modelTest {
 
     @Test
     public void case6_2_3(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case6.2.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case6.2.txt")+"\n"
                 + "move G9 F9\n"
                 + "move G7 G8\n"
                 + "move G7 G8\n"
@@ -861,7 +861,7 @@ public class modelTest {
     // Case 8 : Test whether Lion and Tiger can jump over the rivers
     @Test
     public void case8(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case8.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case8.txt")+"\n"
                 + "move B3 B7\n"
                 + "exit\n";
         provideInput(inputString);
@@ -904,7 +904,7 @@ public class modelTest {
     // Case 9 : Can Lion and Tiger catch the animals after they jump over the rivers.
     @Test
     public void case9(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case9.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case9.txt")+"\n"
                 + "move B3 B7\n"
                 + "exit\n";
         provideInput(inputString);
@@ -947,7 +947,7 @@ public class modelTest {
     // Case 10 : Test whether Lion and Tiger can jump over the rivers while rat is in the river
     @Test
     public void case10(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/save.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/save.txt")+"\n"
                 + "move A3 A4\n"
                 + "move A7 B7\n"
                 + "move A1 A2\n"
@@ -1111,7 +1111,7 @@ public class modelTest {
     // Case 11 : Test the trap
     @Test
     public void case11(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case11.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case11.txt")+"\n"
                 + "move E8 D8\n"
                 + "exit\n";
         provideInput(inputString);
@@ -1154,7 +1154,7 @@ public class modelTest {
     // Case 12: Test whether elephant can catch the animals
     @Test
     public void case12(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/save.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/save.txt")+"\n"
                 + "move A3 A4\n"
                 + "move A7 B7\n"
                 + "move A4 A5\n"
@@ -1302,7 +1302,7 @@ public class modelTest {
     // Test14: Test whether the mice can eat elephant or not
     @Test
     public void case13(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/save.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/save.txt")+"\n"
                 + "move G3 G4\n"
                 + "move G7 G6\n"
                 + "move G4 G5\n"
@@ -1405,7 +1405,7 @@ public class modelTest {
     // Test14: Test whether the mice can enter the Den square
     @Test
     public void case14(){
-        final String inputString = "open "+basePath.concat("/boardFileForTesting/case14.txt")+"\n"
+        final String inputString = "open "+basePath.concat("/resources/case14.txt")+"\n"
                 + "move D8 D9\n";
         provideInput(inputString);
         JungleGame junleGame = new JungleGame();

@@ -68,7 +68,7 @@ public class viewTest {
                 + "move A1 A2\n"
                 + "save\n"
                 + "save " + basePath.concat("/wrongFolder/wrongFile.txt") + "\n"
-                + "save " + basePath.concat("/boardFileForTesting/disposed.txt") + "\n"
+                + "save " + basePath.concat("/resources/disposed.txt") + "\n"
                 + "start\n"
                 + "h\n"
                 + "N\n"
@@ -76,7 +76,7 @@ public class viewTest {
                 + "Y\n"
                 + "open\n"
                 + "open " + basePath.concat("/wrongFolder/wrongFile.txt") + "\n"
-                + "open " + basePath.concat("/boardFileForTesting/player2win.txt") + "\n"
+                + "open " + basePath.concat("/resources/player2win.txt") + "\n"
                 + "move D2 D1\n";
         provideInput(inputString);
         JungleGame jungleGame2 = new JungleGame();
@@ -236,7 +236,7 @@ public class viewTest {
 
     @Test
     public void player1Win() {
-        final String inputString = "open " + basePath.concat("/boardFileForTesting/player1win.txt") + "\n"
+        final String inputString = "open " + basePath.concat("/resources/player1win.txt") + "\n"
                 + "move D8 D9\n";
         provideInput(inputString);
         JungleGame jungleGame2 = new JungleGame();

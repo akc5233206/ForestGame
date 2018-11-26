@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5ea5ed3e-8d27-4156-af5d-990a6b0cb79a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case6.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/case9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/disposed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/player1win.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/player2win.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardFileForTesting/save.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/change_class.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" afterDir="false" />
     </list>
@@ -26,7 +43,7 @@
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_startConsole.ic" NAME="JungleGameConsoleTest.startConsole Coverage Results" MODIFIED="1542961988001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pov3$All_in_pov3.ic" NAME="All in pov3 Coverage Results" MODIFIED="1543233939503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pov3$All_in_pov3.ic" NAME="All in pov3 Coverage Results" MODIFIED="1543234468127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/pov3$JungleGameConsoleTest_exit.ic" NAME="JungleGameConsoleTest.exit Coverage Results" MODIFIED="1542970382917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hk.edu.polyu.comp.comp2021.jungle.view.*</FILTER>
     </SUITE>
@@ -53,7 +70,7 @@
     <session id="-1190144348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="4" />
@@ -61,19 +78,19 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="150" />
+          <entry key="java" value="151" />
           <entry key="plantuml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="150" />
+          <entry key="JAVA" value="151" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="PlantUML file" value="11" />
         </counts>
@@ -93,29 +110,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="1170" column="34" selection-start-line="1170" selection-start-column="34" selection-end-line="1170" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/JungleGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1080">
-              <caret line="135" column="54" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,8 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getByUserStringInput</find>
-      <find>isWin</find>
       <find>scanUserInput</find>
       <find>winGrame</find>
       <find>COVERT_ACSII_CHAR</find>
@@ -156,10 +149,13 @@
       <find>isSquare</find>
       <find>capture</find>
       <find>playerPiece</find>
+      <find>movePieceOnBoard</find>
+      <find>boardFileForTesting</find>
     </findStrings>
     <replaceStrings>
       <replace>winGame</replace>
       <replace>\n</replace>
+      <replace>resources</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,15 +188,16 @@
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/piece/AnimalPieces.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/model/Movement.java" />
         <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/view/JungleGameConsole.java" />
-        <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" />
         <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java" />
+        <option value="$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/JungleGame.java" />
+        <option value="$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="212" />
     <option name="y" value="23" />
-    <option name="width" value="1237" />
+    <option name="width" value="921" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -224,7 +221,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,10 +228,36 @@
               <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
               <item name="pov3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pov3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pov3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jungle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pov3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jungle" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pov3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pov3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jungle" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,12 +379,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="modelTest - 2018.11.26 at 19h 29m 04s.xml">
-      <configuration name="modelTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_pov3 - 2018.11.26 at 19h 29m 23s.xml">
-      <configuration name="All in pov3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="viewTest - 2018.11.26 at 19h 31m 07s.xml">
       <configuration name="viewTest" configurationId="JUnit" />
     </history-entry>
@@ -387,18 +403,24 @@
     <history-entry file="All_in_pov3 - 2018.11.26 at 20h 05m 43s.xml">
       <configuration name="All in pov3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 20h 14m 06s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pov3 - 2018.11.26 at 20h 14m 31s.xml">
+      <configuration name="All in pov3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1237" height="777" extended-state="0" />
+    <frame x="212" y="23" width="921" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3531381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4880546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16350365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3591241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32554746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,7 +435,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.017573223" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" visible="true" weight="0.023890786" />
       <window_info anchor="right" id="PlantUML" order="7" weight="0.3757322" />
     </layout>
     <layout-to-restore>
@@ -567,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,15 +642,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hk/edu/polyu/comp/comp2021/jungle/controller/JungleGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
+        <state relative-caret-position="193">
           <caret line="135" column="54" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/view/viewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="268" column="55" lean-forward="true" selection-start-line="268" selection-start-column="55" selection-end-line="268" selection-end-column="55" />
+        <state relative-caret-position="2713">
+          <caret line="238" column="82" selection-start-line="238" selection-start-column="82" selection-end-line="238" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hk/edu/polyu/comp/comp2021/jungle/model/modelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="1170" column="34" selection-start-line="1170" selection-start-column="34" selection-end-line="1170" selection-end-column="34" />
+        <state relative-caret-position="-110">
+          <caret line="1407" column="80" selection-start-line="1407" selection-start-column="80" selection-end-line="1407" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
