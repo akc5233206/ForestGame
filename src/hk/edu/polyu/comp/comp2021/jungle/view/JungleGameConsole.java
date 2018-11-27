@@ -264,11 +264,10 @@ public class JungleGameConsole {
                     break;
                 case CMD_SAVE:
                     if(gameStated) {
-                        if (userInputArray.length < 2) { //changed from != to <= by Carlos 23/NOV/2018
+                        if (userInputArray.length < 2) {
                             System.out.println("The save command is not valid. \nPlease enter the new save command again. e.g save C:\\Users\\Username\\Desktop\\");
                         } else {
                             //Check folder exist
-                            //Path saveFolderPath = Paths.get(userInputArray[1]); Modified by Carlos
                             Path saveFolderPath = Paths.get(String.join(" ",Arrays.copyOfRange(userInputArray,1,userInputArray.length)));
                             if (!Files.exists(saveFolderPath.getParent()!=null? saveFolderPath.getParent(): saveFolderPath)) {
                                 System.out.println("The inputted location for saving Jungle Game State does not exist.\nPlease enter the save command again.");
@@ -276,9 +275,6 @@ public class JungleGameConsole {
                                 if (jungleGame.saveJungleGame(saveFolderPath)) {
                                     System.out.println("The current Jungle board game is already saved into your specific location.");
                                 }
-//                                else {
-//                                    System.out.println("The save command cannot completed.\nPlease try again or enter the new save command.");
-//                                }
                             }
                         }
                     }else
@@ -287,13 +283,12 @@ public class JungleGameConsole {
                     }
                     break;
                 case CMD_OPNE:
-                    if(userInputArray.length < 2) //changed from != to <= by Carlos 23/NOV/2018
+                    if(userInputArray.length < 2)
                     {
                         System.out.println("The open command is not valid. \nPlease enter the new open command again. e.g open C:\\Users\\Username\\Desktop\\");
                     }else
                     {
                         //Check folder exist
-                        //Path openFolderPath = Paths.get(userInputArray[1]);
                         Path openFolderPath = Paths.get(String.join(" ",Arrays.copyOfRange(userInputArray,1,userInputArray.length)));
                         if(!Files.isRegularFile(openFolderPath))
                         {
@@ -307,10 +302,10 @@ public class JungleGameConsole {
                                 System.out.println(jungleGame.getStringGameBoard());
                                 this.gameStated = true;
                             }
-//                            else
-//                            {
-//                                System.out.println("The current game is not saved yet/ There is a damage of your save file.\nPlease use the 'save' command to save your current Jungle game first.");
-//                            }
+                            else
+                            {
+                                System.out.println("The current game is not saved yet/ There is a damage of your save file.\nPlease use the 'save' command to save your current Jungle game first.");
+                            }
                         }
                     }
 

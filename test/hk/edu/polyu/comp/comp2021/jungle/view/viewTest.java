@@ -40,7 +40,9 @@ public class viewTest {
         System.setOut(systemOut);
     }
 
-
+    /**
+     * Test the exit "command" in order to terminate the current Jungle Board Game's Command Console.
+     */
     @Test
     public void exit() {
         final String inputString = "exit\n";
@@ -52,6 +54,9 @@ public class viewTest {
         assertEquals(outString, getOutput());
     }
 
+    /**
+     * Test the terminate situation after Player 2 is the winner in the current round of Jungle game.
+     */
     @Test
     public void player2Win() {
         final String inputString = "hello\n"
@@ -234,6 +239,9 @@ public class viewTest {
         assertEquals(outString, getOutput());
     }
 
+    /**
+     * Test the terminate situation after Player 1 is the winner in the current round of Jungle game.
+     */
     @Test
     public void player1Win() {
         final String inputString = "open " + basePath.concat("/resources/player1win.txt") + "\n"
@@ -272,6 +280,66 @@ public class viewTest {
                 + "	A	B	C	D	E	F	G	\n"
                 + "The winner is Player 1 : Carlos\n"
                 + "Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
+    }
+
+    @Test
+    public void withoutSaved() {
+        final String inputString = "start\n"
+                + "Carlos\n"
+                + "Lambert\n"
+                + "move A1 A2\n"
+                + "open " + basePath.concat("/resources/player1win.txt") + "\n"
+                + "exit\n";
+        provideInput(inputString);
+        JungleGame jungleGame2 = new JungleGame();
+        JungleGameConsole console2 = new JungleGameConsole(jungleGame2);
+        console2.startConsole();
+        final String outString = "Input : Please enter the name for Player 1 : \n"
+                +"Player 1 (Carlos) is created.\n"
+                +"Please enter the name for Player 2 : \n"
+                +"Player 2 (Lambert) is created.\n"
+                +"===============================================\n"
+                +"The Player 1 name : Carlos	The Player 2 name : Lambert\n"
+                +"The following symbols are representing the pieces and squares of Jungle Board Game in the Command Prompt:\n"
+                +"Pieces: \n"
+                +"E : Elephant 	 Li : Lion 	 T : Tiger 	 Le : Leopard\n"
+                +"W : Wolf 		 D : Dog 	 C : Cat 	 R : Rat\n"
+                +"Square: \n"
+                +"# : Trap 	 @ : Den 	 ^ : river\n"
+                +"P.S. \"'\", behind the symbol is representing the piece for Player 2. \n"
+                +"The new Jungle Game Board is created : \n"
+                +"\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	 	C 	 	#	 	D 	 	\n"
+                +"1	T 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"Player 1 input's : \n"
+                +"The movement command is completed.\n"
+                +"The current board state will be printed as follows: \n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	R'	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	 	^	^	 	^	^	 	\n"
+                +"4	 	^	^	 	^	^	 	\n"
+                +"3	E 	 	W 	 	Le 	 	R 	\n"
+                +"2	T 	C 	 	#	 	D 	 	\n"
+                +"1	 	 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"Player 2 input's : \n"
+                +"The current game is not saved yet/ There is a damage of your save file.\n"
+                +"Please use the 'save' command to save your current Jungle game first.\n"
+                +"Player 2 input's : \n"
+                +"Exit the current Jungle Board Game.\n";
         assertEquals(outString, getOutput());
     }
 }

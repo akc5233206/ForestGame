@@ -1444,5 +1444,50 @@ public class modelTest {
         assertEquals(outString, getOutput());
     }
 
+    /**
+     * Case 15 : Test whether the elephant can eat rat or not
+     */
+    @Test
+    public void case15(){
+        final String inputString = "open "+basePath + ("/resources/case15.txt")+"\n"
+                + "move A4 A5\n"
+                + "exit\n";
+        provideInput(inputString);
+        JungleGame junleGame = new JungleGame();
+        JungleGameConsole console = new JungleGameConsole(junleGame);
+        console.startConsole();
+        final String outString = "Input : The current Jungle board game is already loaded from your specific location.\n"
+                +"The loaded Jungle Game Board : \n"
+                +"\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	 	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	R'	^	^	 	^	^	 	\n"
+                +"4	E 	^	^	 	^	^	 	\n"
+                +"3	 	C 	W 	 	Le 	 	R 	\n"
+                +"2	 	 	 	#	 	D 	 	\n"
+                +"1	 	T 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"Player 1 input's : \n"
+                +"The movement command cannot completed.\n"
+                +"Please try again or enter the new movement command.\n"
+                +"9	Li'	 	#	@	#	 	T'	\n"
+                +"8	 	D'	 	#	 	C'	 	\n"
+                +"7	 	 	Le'	 	W'	 	E'	\n"
+                +"6	 	^	^	 	^	^	 	\n"
+                +"5	R'	^	^	 	^	^	 	\n"
+                +"4	E 	^	^	 	^	^	 	\n"
+                +"3	 	C 	W 	 	Le 	 	R 	\n"
+                +"2	 	 	 	#	 	D 	 	\n"
+                +"1	 	T 	#	@	#	 	Li 	\n"
+                +"\n"
+                +"	A	B	C	D	E	F	G	\n"
+                +"Player 1 input's : \n"
+                +"Exit the current Jungle Board Game.\n";
+        assertEquals(outString, getOutput());
+    }
+
 
 }
